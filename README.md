@@ -17,11 +17,14 @@ Data normalization is a data preprocessing technique used to scale numerical val
 Normalization is especially useful when working with machine learning algorithms that are sensitive to feature scaling.
 
 Why Normalization is Important
-Removes bias caused by different feature scales
-Improves performance of machine learning models
-Makes data easier to compare
-Helps gradient-based algorithms converge faster
+
+1)Removes bias caused by different feature scales
+2)Improves performance of machine learning models
+3)Makes data easier to compare
+4)elps gradient-based algorithms converge faster
+
 Types of Normalization Used
+
 1. Min-Max Normalization
 
 Min-Max normalization scales the values between 0 and 1.
@@ -133,11 +136,11 @@ If there are 4 categories → only 3 columns are created.
 
 Data normalization and encoding are widely used in:
 
-Machine Learning
-Data Mining
-Data Analytics
-Artificial Intelligence
-Recommendation Systems
+1)Machine Learning
+2)Data Mining
+3)Data Analytics
+4)Artificial Intelligence
+5)Recommendation Systems
 
 # Conclusion 
 

@@ -19,9 +19,13 @@ Normalization is especially useful when working with machine learning algorithms
 Why Normalization is Important
 
 1)Removes bias caused by different feature scales
+
 2)Improves performance of machine learning models
+
 3)Makes data easier to compare
-4)elps gradient-based algorithms converge faster
+
+4)Helps gradient-based algorithms converge faster
+
 
 Types of Normalization Used
 
@@ -52,6 +56,7 @@ min
 Example
 
 Used for normalizing the Price column in the dataset.
+
 
 2. Z-Score Normalization (Standardization)
 
@@ -96,6 +101,7 @@ Price ÷ 100000
 
 Machine learning models require numerical data, so categorical data must be converted.
 
+
 1. Label Encoding
 
 Each category is assigned a unique integer value.
@@ -114,6 +120,7 @@ Limitation
 
 May introduce false ordinal relationships.
 
+
 2. One-Hot Encoding
 
 Creates separate binary columns for each category.
@@ -124,6 +131,7 @@ UPI	Credit Card	Debit Card	COD
 1	0	0	0
 
 Implemented using Pandas get_dummies().
+
 
 3. Dummy Encoding
 
@@ -137,10 +145,15 @@ If there are 4 categories → only 3 columns are created.
 Data normalization and encoding are widely used in:
 
 1)Machine Learning
+
 2)Data Mining
+
 3)Data Analytics
+
 4)Artificial Intelligence
+
 5)Recommendation Systems
+
 
 # Conclusion 
 

@@ -66,32 +66,28 @@ Used for normalizing the Price column in the dataset.
 Z-score normalization transforms data based on mean and standard deviation.
 
 Formula
-Z=
-σ
-X−μ
+Z=σX−μ
 	​
-
-
 Where:
 
 μ = mean
+
 σ = standard deviation
+
 Advantages
+
 Centers data around 0
+
 Useful for normally distributed data
-3. Decimal Scaling
+
+
+## 3. Decimal Scaling
 
 In decimal scaling, values are scaled by moving the decimal point.
 
 Formula
-X
-scaled
-	​
 
-=
-10
-j
-X
+X scaled = 10 j X
 	​
 
 
@@ -100,13 +96,6 @@ Where j is chosen so the maximum absolute value becomes less than 1.
 Example:
 Price ÷ 100000
 
-## 3)  Decimal Scaling
-
-In this method, values are scaled by moving the decimal point.
-
-Formula: [ X' = \frac{X}{10^j} ]
-
-Where j is chosen such that the maximum absolute value is less than 1.
 
 Simple method
 

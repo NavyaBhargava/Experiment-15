@@ -128,3 +128,17 @@ Similar to One-Hot Encoding but drops one column to avoid multicollinearity.
 
 Example:
 If there are 4 categories → only 3 columns are created.
+
+# Applications 
+
+Data normalization and encoding are widely used in:
+
+Machine Learning
+Data Mining
+Data Analytics
+Artificial Intelligence
+Recommendation Systems
+
+# Conclusion 
+
+In this experiment, various data preprocessing techniques were implemented. Numerical data was normalized using Min-Max, Z-score, and Decimal Scaling methods, while categorical data was converted into numerical format using Label Encoding, One-Hot Encoding, and Dummy Encoding. These preprocessing steps are essential for improving the performance and accuracy of machine learning models.

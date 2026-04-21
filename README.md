@@ -100,6 +100,19 @@ Where j is chosen so the maximum absolute value becomes less than 1.
 Example:
 Price ÷ 100000
 
+## 3)  Decimal Scaling
+
+In this method, values are scaled by moving the decimal point.
+
+Formula: [ X' = \frac{X}{10^j} ]
+
+Where j is chosen such that the maximum absolute value is less than 1.
+
+Simple method
+
+Used for price scaling in your experiment
+
+
 # Data Encoding Techniques 
 
 Machine learning models require numerical data, so categorical data must be converted.
